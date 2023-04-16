@@ -5,11 +5,11 @@
 
 template<typename T, int size>
 class TPQueue {
-  private:
+ private:
     T* arr;
     int head, tail, cnt;
-   
-  public:
+
+ public:
     TPQueue() : head(0), tail(0), cnt(0) {
       arr = new T[size];
     }
